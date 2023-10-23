@@ -1,0 +1,29 @@
+@media (max-width: 1010px) {
+    .news-item{
+        flex-basis: 35%;
+    }
+}
+@media (max-width: 810px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+    .news-item{
+        width: 44%;
+        min-width: 284px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 588px){
+    .main-menu__item a{
+        font-size: 18px;
+    } 
+}
+@media (max-width: 466px){
+    .main-menu__list {
+            flex-direction: column;
+        }
+}
